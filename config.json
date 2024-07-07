@@ -1,0 +1,10 @@
+{
+  "excel_id": "10FgOFV4fPnAl7PAF9yBuBDavzeEM28B_pSpK0u5tP7I",
+  "scopes": ["https://www.googleapis.com/auth/spreadsheets"],
+  "sender_email": "mariasteliana85@gmail.com",
+  "color_codes": {
+    "green": "#4CAF50",
+    "red": "#BA2617",
+    "yellow": "#E0F320"
+  }
+}

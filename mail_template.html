@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: [color_background];
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            color: #333333;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .button {
+            background-color: [color_background];
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .unsubscribe {
+            color: #333333;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .unsubscribe:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Password is about to expire</h1>
+        </div>
+        <div class="content">
+            <p>Dear [Recipient's Name],</p>
+
+            <p>Your password is about to expire.</p>
+            <p>Click the button below to reset it:</p>
+            <a href="http://127.0.0.1:5000" class="button">Reset Password</a>
+            <br><br>
+            <p>Best regards,</p>
+            <p>The ITSchool Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 ITSchool. All rights reserved.</p>
+            <a href="https://example.com/unsubscribe" class="unsubscribe">Unsubscribe</a>
+        </div>
+    </div>
+</body>
+</html>
